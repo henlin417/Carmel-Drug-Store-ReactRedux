@@ -26,6 +26,7 @@
 ###    ❖Online Store
         - React: Components, Props, Events, Hooks, Router, Axios
         - Redux
+        - GraphQL
         - Node & Express
         - Development: Git, Github,
         - Deployment: firebase
