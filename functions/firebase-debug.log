@@ -1,0 +1,29 @@
+[debug] [2020-12-03T23:54:25.947Z] ----------------------------------------------------------------------
+[debug] [2020-12-03T23:54:25.949Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\phsstudent\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2020-12-03T23:54:25.950Z] CLI Version:   8.17.0
+[debug] [2020-12-03T23:54:25.950Z] Platform:      win32
+[debug] [2020-12-03T23:54:25.950Z] Node Version:  v12.18.4
+[debug] [2020-12-03T23:54:25.951Z] Time:          Thu Dec 03 2020 15:54:25 GMT-0800 (Pacific Standard Time)
+[debug] [2020-12-03T23:54:25.951Z] ----------------------------------------------------------------------
+[debug] [2020-12-03T23:54:25.952Z] 
+[debug] [2020-12-03T23:54:25.965Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-03T23:54:25.966Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2020-12-03T23:54:28.016Z] [hub] writing locator at C:\Users\PHSSTU~1\AppData\Local\Temp\hub-carmeldrugstore-0.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub\u001b[22m"}}
+[info] +  functions: Using node@12 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@12 from host."}}
+[debug] [2020-12-03T23:54:30.067Z] defaultcredentials: writing to file C:\Users\phsstudent\AppData\Roaming\firebase\henryling66_gmail_com_application_default_credentials.json
+[debug] [2020-12-03T23:54:30.070Z] Setting GAC to C:\Users\phsstudent\AppData\Roaming\firebase\henryling66_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\phsstudent\\AppData\\Roaming\\firebase\\henryling66_gmail_com_application_default_credentials.json"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2020-12-03T23:54:32.126Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-12-03T23:54:32.126Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-12-03T23:54:32.126Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\phsstudent\\.cache\\firebase\\emulators\\ui-v1.3.0\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\phsstudent\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.3.0\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-12-03T23:54:32.339Z] Web / API server started at http://localhost:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4001\n"}}
+[info] i  functions: Watching "C:\Users\phsstudent\PortfolioHL\Carmel Drug\carmel\carmeldrugstore\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\phsstudent\\PortfolioHL\\Carmel Drug\\carmel\\carmeldrugstore\\functions\" for Cloud Functions..."}}
+[debug] [2020-12-03T23:54:32.677Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-12-03T23:54:32.677Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-12-03T23:54:32.678Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-12-03T23:54:32.678Z] [worker-~diagnostic~-56aa6c6b-8aec-41e6-bd45-0f0b2f89cb68]: Assigning socketPath: \\?\pipe\C:\Users\phsstudent\PortfolioHL\Carmel Drug\carmel\carmeldrugstore\functions\39072 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-56aa6c6b-8aec-41e6-bd45-0f0b2f89cb68]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\phsstudent\\PortfolioHL\\Carmel Drug\\carmel\\carmeldrugstore\\functions\\39072"}}
+[debug] [2020-12-03T23:54:32.678Z] [worker-~diagnostic~-56aa6c6b-8aec-41e6-bd45-0f0b2f89cb68]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-56aa6c6b-8aec-41e6-bd45-0f0b2f89cb68]: BUSY"}}
